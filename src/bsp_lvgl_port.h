@@ -1,7 +1,7 @@
 #ifndef BSP_LVGL_PORT_H
 #define BSP_LVGL_PORT_H
 
-#include "./src/port_bsp/i2c_bsp.h"
+#include "i2c_bsp.h"
 
 bool bsp_lvgl_lock(int timeout_ms);
 void bsp_lvgl_unlock(void);

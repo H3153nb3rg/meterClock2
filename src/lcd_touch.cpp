@@ -3,7 +3,7 @@
 #include "freertos/FreeRTOS.h"
 #include "lcd_touch.h"
 #include "esp_log.h"
-#include "./src/port_bsp/i2c_bsp.h"
+#include "i2c_bsp.h"
 
 LcdTouchPanel::LcdTouchPanel(I2cMasterBus &i2cbus, int dev_addr, int touch_rst_pin, int touch_int_pin)
   : i2cbus_(i2cbus) {

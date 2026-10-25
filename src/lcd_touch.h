@@ -1,7 +1,7 @@
 #ifndef LCD_TOUCH_BSP_H
 #define LCD_TOUCH_BSP_H
 
-#include "./src/port_bsp/i2c_bsp.h"
+#include "i2c_bsp.h"
 #include "driver/gpio.h"
 #include "user_config.h"
 

@@ -1,0 +1,8 @@
+# ESP32-C6-Touch-AMOLED-2.16 (16 MB flash)
+# Layout: ~3.9 MB application, OpenThread settings (NVS), 1 MB SPIFFS.
+# Name,        Type, SubType, Offset,   Size,     Flags
+nvs,           data, nvs,     0x9000,   0x5000,
+otadata,       data, ota,     0xe000,   0x2000,
+app0,          app,  ota_0,   0x10000,  0x3F0000,
+ot_storage,    data, nvs,     0x400000, 0x4000,
+spiffs,        data, spiffs,  0x410000, 0x100000,

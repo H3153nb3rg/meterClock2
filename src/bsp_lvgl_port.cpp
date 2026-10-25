@@ -3,10 +3,10 @@
 #include <esp_lcd_panel_io.h>
 #include <esp_lcd_panel_ops.h>
 #include <esp_lcd_panel_vendor.h>
-#include "src/externLib/esp_lcd_sh8601.h"
+#include "esp_lcd_sh8601.h"
 #include "user_config.h"
 #include "lcd_touch.h"
-#include "./src/port_bsp/axp2101_bsp.h"
+#include "axp2101_bsp.h"
 
 static esp_lcd_panel_handle_t panel_handle = NULL;
 static esp_lcd_panel_io_handle_t io_handle = NULL;

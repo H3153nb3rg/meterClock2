@@ -10,6 +10,10 @@
 extern "C" {
 #endif
 
+
+#define LV_COLOR_DEPTH  		16
+#define LV_COLOR_16_SWAP 		1
+
 #if defined __has_include
 #if __has_include("lvgl.h")
 #include "lvgl.h"
@@ -115,6 +119,7 @@ LV_IMG_DECLARE(ui_img_rightback_png);    // assets\rightBack.png
 LV_IMG_DECLARE(ui_img_poz1_png);    // assets\poz1.png
 
 LV_FONT_DECLARE(ui_font_Font1);
+
 
 void ui_init(void);
 

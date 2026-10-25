@@ -42,5 +42,7 @@
 #define LVGL_TASK_STACK_SIZE   (8 * 1024)
 #define LVGL_TASK_PRIORITY     2
 
+#define LV_COLOR_DEPTH  		16
+#define LV_COLOR_16_SWAP 		1
 
 #endif // !USER_CONFIG_H

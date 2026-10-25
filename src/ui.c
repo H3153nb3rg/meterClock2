@@ -7,7 +7,7 @@
 #include "ui_helpers.h"
 
 ///////////////////// VARIABLES ////////////////////
-
+#define LV_COLOR_16_SWAP 1
 
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
